@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(250, 250, 250);
+}
+
+.form-container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #bbbbbb;
+    margin-top: 15vh;
+}
+
+.logintext {
+    font-family: 'Permanent Marker', cursive;
+    color: blue;
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}

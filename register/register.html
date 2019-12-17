@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Register</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="register.css">
+
+</head>
+
+<body>
+    <main>
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-12 col-sm-6 col-md-8">
+                    <form class="form-container" onsubmit="registerAsUser();">
+                        <div class="text-center">
+                            <h1>Register</h1>
+                        </div>
+                        <br>
+                        <div class="form-group">
+                            <label for="">Username</label>
+                            <input type="text" class="form-control" id="Username" placeholder="Enter Username" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="">Mobile</label>
+                            <input type="Number" class="form-control" id="Mobile" placeholder="Enter Mobile Number" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="">Email</label>
+                            <input type="email" class="form-control" id="Email" placeholder="Enter email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="">Password</label>
+                            <input type="password" class="form-control" id="Password" placeholder="password" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="">Confirm-Password</label>
+                            <input type="password" class="form-control" id="Confirm-Password" placeholder="confirm_password" required>
+                        </div>
+                        <br>
+                        <button type="submit" class="btn btn-dark btn-block">Register</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        </div>
+    </main>
+    <script src="register.js"></script>
+</body>
+
+</html>

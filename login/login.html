@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Loginpage</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="login.css">
+
+</head>
+
+<body>
+
+    <main>
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-12 col-sm-6 col-md-3">
+                    <form class="form-container" onsubmit="checklogin();">
+                        <div class="text-center">
+                            <img src="https://miro.medium.com/max/280/1*MccriYX-ciBniUzRKAUsAw.png" alt="Avatar" class="avatar">
+
+                        </div>
+                        <br>
+                        <div class="form-group">
+                            <label for="">Email address</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="">Password</label>
+                            <input type="password" class="form-control" id="password" placeholder="Password" required>
+                        </div>
+                        <br>
+
+                        <button type="submit" class="btn btn-dark btn-block">Login</button>
+                        <br>
+                        <button type="button" class="btn btn-dark btn-block" onclick="redirect()">Register</button>
+                    </form>
+
+                </div>
+
+            </div>
+
+
+
+
+        </div>
+        </div>
+    </main>
+    <script src="login.js"></script>
+</body>
+
+</html>
